@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Game of Throwns</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <h1 class="display-4">Game of Throwns</h1>
+    </header>
+    <div id="myEnd" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeEnd()">&times;</a>
+            <div class="overlay-content">
+              <h4>There's a difference between knowing the path and walking the path... </h4>
+              <h4>AGAIN!</h4>
+              <h4> ~ Morpheus</h4>
+
+            </div>
+          </div>
+    <div class="container">
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col-sm-8">
+                <ul>
+                    <li>Make a deposit of faith by clicking each religious site. A God from each site will grant you random steps for your journey on the Path to the Promised Land.  </li> 
+                    <li>You need to reach the exact Promised Land Goal, which is a randomly generated number of steps.</li>
+                    <li>The Path will show you how many steps closer you are to the Promised Land.</li>
+                </ul>
+            </div><div class="col-sm-4"></div>
+        </div>
+        <!-- Row 2 -->
+        <div class="row">
+            <div class="col-sm-6">
+                    <h2>Steps to the Promised Land: <span id="goalnum"></span> </h2>
+            </div>
+            <div class="col-sm-6"></div>
+        </div>
+        <!-- Row 3 -->
+        <div class="row">
+            <div class="col-sm-2 rio throne"><img src="https://www.thoughtco.com/thmb/WJhvOucYLDIT5sCyLHMPddTA7mI=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/christredeemer-10139156-567c92283df78ccc15684502.jpg" height="200" width="250"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2 angkor throne"><img src="http://static.panoramio.com/photos/large/12354025.jpg" height="200" width="250"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2 jerusalem throne"><img src="https://media1.britannica.com/eb-media/19/93419-004-262D7430.jpg" height="200" width="250"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2 uluwatu throne"><img src="https://i.ytimg.com/vi/fKLKn8_S7jI/hqdefault.jpg" height="200" width="250"></div>
+            <div class="col-sm-1"></div>
+        </div>
+        <!-- Row 4 -->
+        <div class="row">
+            <div class="col-sm-5">
+                    <h2>The Path: <span id="newNum"></span> </h2>
+            </div>
+            <div class="col-sm-7"></div>
+        </div>
+        <!-- Row 5 -->
+        <div class="row">
+            <div class="col-sm-12 result">
+                <!-- <span style="font-size:30px;cursor:pointer" onclick="openEnd()">&#9776; open</span> -->
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/logic.js"></script>
+    
+</body>
+</html>
